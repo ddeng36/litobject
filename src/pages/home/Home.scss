@@ -1,0 +1,19 @@
+.home{
+    display: flex;
+    height: 100vh;
+    position: relative;
+    .language{
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 20px;
+        z-index: 100;
+        .language__item{
+            margin: 0 5px;
+            cursor: pointer;
+            &.active{
+                color: #fff;
+            }
+        }
+    }
+}
