@@ -1,4 +1,23 @@
-.slider{
-    background: rgb(199, 199, 173);
+.slider {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+  .content {
     flex: 1;
+    
+    .slide{
+      width: 100%;
+      height: 100%;
+      opacity: 0.6;
+      transition: opacity 1s ease-in-out;
+      .slide__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .active{
+      opacity: 1;
+    }
+  }
 }

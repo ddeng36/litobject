@@ -3,9 +3,9 @@ import xl2 from '../assets/images/xl2.jpeg';
 import xl3 from '../assets/images/xl3.jpeg';
 import xl4 from '../assets/images/xl4.jpeg';
 
-export default {
+export default[
     xl1,
     xl2,
     xl3,
     xl4
-}
+]
