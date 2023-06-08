@@ -1,12 +1,16 @@
-import './App.scss';
-import {images} from "./constants";
-function App() {
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/home/Home";
+const App = () => {
   return (
-    <div className="App">
-      test
-      <img src={images.xl1} alt="xl1" />
+    <div className="app">
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
-}
+};
 
 export default App;
