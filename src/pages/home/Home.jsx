@@ -10,8 +10,12 @@ const Home = () => {
       <Navbar />
       <Slider />
       <div className="topRight">
-        <Language />
-        <NavButton />
+        <div className="lng">
+          <Language />
+        </div>
+        <div className="btn">
+          <NavButton />
+        </div>
       </div>
     </div>
   );

@@ -2,7 +2,7 @@ import React from 'react'
 import './NavButton.scss'
 const NavButton = () => {
   return (
-    <div>NavButton</div>
+    <div className='navButton'>NavButton</div>
   )
 }
 
