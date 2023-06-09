@@ -1,6 +1,5 @@
 import React from "react";
 import "./Navbar.scss";
-import { Link } from "react-router-dom";
 import Title from "../title/Title";
 import News from "../news/News";
 import Navlist from "../navlist/Navlist";
