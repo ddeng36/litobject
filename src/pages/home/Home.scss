@@ -3,18 +3,13 @@
     height: 100vh;
     width: 100vw;
     position: relative;
-    .language{
+    .topRight{
         position: absolute;
-        top: 0;
-        right: 0;
-        margin: 20px;
-        z-index: 100;
-        .language__item{
-            margin: 0 5px;
-            cursor: pointer;
-            &.active{
-                color: #fff;
-            }
+        top: 79px;
+        right: 79px;
+        @media screen and (max-width: 768px){
+            right: 19px;
         }
+        z-index: 1;
     }
 }
