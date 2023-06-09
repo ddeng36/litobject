@@ -1,0 +1,19 @@
+.navlist{
+    font-size: var(--font-size);
+      color: var(--gray-color);
+      ul {
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+        li {
+          padding: 10px 0px;
+          a {
+            text-decoration: none;
+            color: var(--gray-color);
+            &:hover {
+              color: black;
+            }
+          }
+        }
+      }
+}
