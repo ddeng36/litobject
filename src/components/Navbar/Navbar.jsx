@@ -2,6 +2,7 @@ import React from "react";
 import "./Navbar.scss";
 import { Link } from "react-router-dom";
 import Title from "../title/Title";
+import News from "../news/News";
 const Navbar = () => {
   return (
     <div className="navbar">
@@ -29,18 +30,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="bottom">
-          <span>News:</span>
-          <ul>
-            <li>
-              <Link>HIROSHIMA Armchair at G7 summit in Hiroshima</Link>
-            </li>
-            <li>
-              <Link>Milan Design Week 2023, UP TO YOU ANTHOLOGY</Link>
-            </li>
-            <li>
-              <Link>Milan Design Week 2023, PLANK</Link>
-            </li>
-          </ul>
+            <News />
         </div>
       </div>
     </div>
