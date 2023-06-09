@@ -1,13 +1,13 @@
 import React from "react";
 import "./Navbar.scss";
 import { Link } from "react-router-dom";
+import Title from "../title/Title";
 const Navbar = () => {
   return (
     <div className="navbar">
       <div className="content">
         <div className="top">
-          <span>LIT</span>
-          <span>OBJECT</span>
+          <Title />
         </div>
         <div className="center">
           <ul>

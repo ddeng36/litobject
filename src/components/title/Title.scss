@@ -1,0 +1,9 @@
+.title{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    font-size: var(--title-size);
+    font-weight:900;
+}

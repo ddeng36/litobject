@@ -1,63 +1,60 @@
 .navbar {
+  display: flex;
   width: 365px;
   @media screen and (max-width: 768px) {
-    display: none;
+    width: 0;
+    z-index: 1;
   }
 
   .content {
-    height: 100%;
     display: flex;
+    flex: 1;
     flex-direction: column;
     justify-content: space-between;
-    padding-left: 79px;
-    .top{
-        cursor: pointer;
-        display: flex;
-        flex-direction: column;
-        padding-top: 77px;
-        font-size: var(--title-size);
-        font-weight:900;
+    padding: 79px;
+    @media screen and (max-width: 768px) {
+      padding: 79px 0px 30px 19px;
     }
-    .center{
-        font-size: var(--font-size);
-        color: var(--gray-color);
-        ul{
-            list-style: none;
-            padding: 0px;
-            margin: 0px;
-            li{
-                padding: 10px 0px;
-                a{
-                    text-decoration: none;
-                    color: var(--gray-color);
-                    &:hover{
-                        color: black;
-                    }
-                }
+
+    .center {
+      font-size: var(--font-size);
+      color: var(--gray-color);
+      ul {
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+        li {
+          padding: 10px 0px;
+          a {
+            text-decoration: none;
+            color: var(--gray-color);
+            &:hover {
+              color: black;
             }
+          }
         }
+      }
     }
-    .bottom{
-        padding-right: 50px;
-        padding-bottom: 77px;
-        font-size: var(--font-size);
-        color: var(--gray-color);
-        ul{
-            list-style: none;
-            padding: 0px;
-            padding-top: 5px;
-            margin: 0px;
-            li{
-                padding: 5px 0px;
-                a{
-                    text-decoration: none;
-                    color: var(--gray-color);
-                    &:hover{
-                        color: black;
-                    }
-                }
+    .bottom {
+      width: 240px;
+      font-size: var(--font-size);
+      color: var(--gray-color);
+      ul {
+        list-style: none;
+        padding: 0px;
+        padding-top: 5px;
+        margin: 0px;
+        li {
+          padding: 5px 0px;
+          a {
+            text-decoration: none;
+            color: var(--gray-color);
+            &:hover {
+              color: black;
             }
+          }
         }
+      }
     }
   }
 }
