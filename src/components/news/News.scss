@@ -2,6 +2,9 @@
     width: 240px;
       font-size: var(--font-size);
       color: var(--gray-color);
+      span{
+        cursor: default;
+      }
       ul {
         list-style: none;
         padding: 0px;

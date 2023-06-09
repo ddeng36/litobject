@@ -3,9 +3,9 @@ import './Language.scss'
 const Language = () => {
   return (
     <div className='language'>
-        <div>English</div>
-        <div className="border">|</div>
-        <div>中文</div>
+        <div className='lng-btn'>English</div>
+        <div className='border'>|</div>
+        <div className='lng-btn'>中文</div>
     </div>
   )
 }

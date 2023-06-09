@@ -1,3 +1,33 @@
-.navButton{
-
+.navButton {
+  .icon {
+    cursor: pointer;
+  }
+  .menu {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    .top {
+      display: flex;
+      height: 150px;
+      justify-content: space-between;
+      padding: 79px 19px 30px 19px;
+    }
+    .center {
+      .navlist {
+        padding-left: 19px;
+        font-size: 20px;
+      }
+    }
+    .bottom {
+      .language {
+        font-size: 18px;
+      }
+      padding-left: 19px;
+      padding-top: 50px;
+    }
+  }
 }
