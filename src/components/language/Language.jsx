@@ -2,7 +2,11 @@ import React from 'react'
 import './Language.scss'
 const Language = () => {
   return (
-    <div>Language</div>
+    <div className='language'>
+        <div>English</div>
+        <div className="border">|</div>
+        <div>中文</div>
+    </div>
   )
 }
 
