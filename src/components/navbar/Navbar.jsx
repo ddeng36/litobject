@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className="navbar">
       <div className="content">
         <Title />
-        <div className="language">
+        <div className="nav-language">
 
         <Language />
         </div>

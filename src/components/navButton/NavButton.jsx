@@ -22,7 +22,7 @@ const NavButton = () => {
       </div>
       {open && (
         <div className="menu">
-          <div className="top">
+          <div className="nav-top">
             <Title />
             <div className="icon">
               <CloseIcon
@@ -33,10 +33,10 @@ const NavButton = () => {
               />
             </div>
           </div>
-          <div className="center">
+          <div className="nav-center">
             <Navlist />
           </div>
-          <div className="bottom">
+          <div className="nav-bottom">
             <Language />
           </div>
         </div>

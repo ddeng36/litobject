@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import "./Projects.scss";
 import Navbar from "../../components/navbar/Navbar";
 import Footer from "../../components/footer/Footer";
@@ -6,7 +6,7 @@ import NavButton from "../../components/navButton/NavButton";
 import data from "../../constants/data";
 const Projects = () => {
   const [categoty, setCategory] = useState(data.filterData[0].name);
-  console.log(data.filterData)
+  console.log(data.filterData);
   return (
     <div className="projects">
       <div className="top">
@@ -21,7 +21,6 @@ const Projects = () => {
             <ul>
               {data.filterData.map((item, index) => (
                 <li
-
                   key={index}
                   onClick={() => setCategory(item.name)}
                   className={categoty === item.name ? "active" : ""}
