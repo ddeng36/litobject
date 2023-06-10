@@ -61,6 +61,9 @@
     .right {
       flex: 3;
       background: olivedrab;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
     }
   }
 }

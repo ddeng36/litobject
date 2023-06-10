@@ -1,0 +1,27 @@
+.link {
+  display: flex;
+  .card {
+    height: 370px;
+    width: 280px;
+    .image {
+      height: 100%;
+      width: 100%;
+      position: relative;
+      img {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+      .mainImg {
+        z-index: 1;
+      }
+      &:hover{
+        .secondImg {
+            z-index: 2;
+          
+        }
+      }
+    }
+  }
+}
