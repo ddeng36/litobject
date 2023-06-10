@@ -1,0 +1,66 @@
+.projects {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .top {
+    .button {
+      display: none;
+      position: fixed;
+      top: 71px;
+      right: 15px;
+      @media screen and (max-width: 768px) {
+        display: block;
+      }
+    }
+  }
+  .center {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    margin: 0 79px;
+    @media screen and (max-width: 768px) {
+      margin: 19px;
+    }
+    @media screen and (max-width: 425px) {
+      margin: 0;
+    }
+    .left {
+      width: 230px;
+      @media screen and (max-width: 768px) {
+        display: none;
+      }
+      ul {
+        padding: 0;
+        margin: 0;
+        font-size: var(--font-size);
+        color: var(--gray-color);
+        li:first-child {
+          padding-bottom: 50px;
+          margin: 0;
+        }
+        li {
+          list-style: none;
+          padding: 6px 0;
+          margin: 0;
+          &.active{
+            color: black;
+          }
+          div {
+            display: inline-block;
+            &:hover {
+              color: var(--black-color);
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+    .right {
+      flex: 3;
+      background: olivedrab;
+    }
+  }
+}
