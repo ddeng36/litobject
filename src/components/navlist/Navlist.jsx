@@ -9,7 +9,7 @@ const Navlist = () => {
           <Link>About</Link>
         </li>
         <li>
-          <Link>Projects</Link>
+          <Link to="/projects">Projects</Link>
         </li>
         <li>
           <Link>Publications</Link>
