@@ -5,7 +5,7 @@ import News from "../news/News";
 import Navlist from "../navlist/Navlist";
 const Sidebar = () => {
   return (
-    <div className="navbar">
+    <div className="sidebar">
       <div className="content">
         <div className="top">
           <Title />
