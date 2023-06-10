@@ -1,9 +1,9 @@
 import React from "react";
-import "./Navbar.scss";
+import "./Sidebar.scss";
 import Title from "../title/Title";
 import News from "../news/News";
 import Navlist from "../navlist/Navlist";
-const Navbar = () => {
+const Sidebar = () => {
   return (
     <div className="navbar">
       <div className="content">
@@ -21,4 +21,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Sidebar;
