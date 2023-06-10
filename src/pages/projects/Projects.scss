@@ -6,6 +6,7 @@
   justify-content: space-between;
   .top {
     .button {
+      z-index: 99;
       display: none;
       position: fixed;
       top: 71px;
@@ -22,9 +23,6 @@
     height: 100%;
     margin: 0 79px;
     @media screen and (max-width: 768px) {
-      margin: 19px;
-    }
-    @media screen and (max-width: 425px) {
       margin: 0;
     }
     .left {
@@ -45,7 +43,7 @@
           list-style: none;
           padding: 6px 0;
           margin: 0;
-          &.active{
+          &.active {
             color: black;
           }
           div {
@@ -60,10 +58,11 @@
     }
     .right {
       flex: 3;
-      background: olivedrab;
       display: flex;
+
+      gap: 30px;
       flex-wrap: wrap;
-      justify-content: space-between;
+      justify-content: space-around;
     }
   }
 }

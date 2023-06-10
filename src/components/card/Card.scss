@@ -1,27 +1,65 @@
 .link {
+  @media screen and (max-width: 438px) {
+    width: 100%;
+  }
   display: flex;
+  text-decoration: none;
+  color: var(--gray-color);
+  margin-bottom: 30px;
+  
   .card {
-    height: 370px;
-    width: 280px;
-    .image {
-      height: 100%;
+    @media screen and (max-width: 438px) {
       width: 100%;
+    }
+    .image {
+      height: 400px;
+      width: 300px;
       position: relative;
+      @media screen and (max-width: 1050px) {
+        height: 440px;
+        width: 330px;
+      }
+      @media screen and (max-width: 438px) {
+        width: 100%;
+      }
       img {
         position: absolute;
         height: 100%;
         width: 100%;
         object-fit: cover;
       }
+
       .mainImg {
-        z-index: 1;
+        transition: opacity 0.5s ease;
+        &.fade {
+          opacity: 0;
+        }
       }
-      &:hover{
-        .secondImg {
-            z-index: 2;
-          
+
+      .secondImg {
+        z-index: 0;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+        &.active {
+          opacity: 1;
         }
       }
     }
+
+    .title {
+      color: var(--gray-color);
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-size: var(--font-size);
+      align-items: center;
+    }
+
+    &:hover {
+      color: black;
+    }
   }
+}
+
+.link:hover .card .image {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
