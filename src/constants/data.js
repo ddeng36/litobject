@@ -60,56 +60,56 @@ export default {
       info: "Lladró / spain / 2023"
     },
     {
-      id: 1,
+      id: 2,
       img: productsImg.pd1,
       img2: productsImg.pd2,
       title: "Mokuren",
       info: "Lladró / spain / 2023"
     },
     {
-      id: 1,
+      id: 3,
       img: productsImg.pd1,
       img2: productsImg.pd2,
       title: "Mokuren",
       info: "Lladró / spain / 2023"
     },
     {
-      id: 1,
+      id: 4,
       img: productsImg.pd1,
       img2: productsImg.pd2,
       title: "Mokuren",
       info: "Lladró / spain / 2023"
     },
     {
-      id: 1,
+      id: 5,
       img: productsImg.pd1,
       img2: productsImg.pd2,
       title: "Mokuren",
       info: "Lladró / spain / 2023"
     },
     {
-      id: 1,
+      id: 6,
       img: productsImg.pd1,
       img2: productsImg.pd2,
       title: "Mokuren",
       info: "Lladró / spain / 2023"
     },
     {
-      id: 1,
+      id: 7,
       img: productsImg.pd1,
       img2: productsImg.pd2,
       title: "Mokuren",
       info: "Lladró / spain / 2023"
     },
     {
-      id: 1,
+      id: 8,
       img: productsImg.pd1,
       img2: productsImg.pd2,
       title: "Mokuren",
       info: "Lladró / spain / 2023"
     },
     {
-      id: 1,
+      id: 9,
       img: productsImg.pd1,
       img2: productsImg.pd2,
       title: "Mokuren",

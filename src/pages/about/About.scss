@@ -1,0 +1,29 @@
+.about {
+  color: var(--gray-color);
+  .bio{
+    margin-bottom: 25px;
+    .para{
+        line-height: 200%;
+        font-size: var(--font-size);
+    }
+  }
+  .title {
+    font-size: 20px;
+    color: var(--gray-color);
+
+    margin-bottom: 10px;
+  }
+  .list {
+    font-size: var(--font-size);
+    margin-bottom: 5px ;
+    margin-top: 5px;
+    display: flex;
+    gap: 5px;
+    justify-content: start;
+    align-items: center;
+    cursor: default;
+    &:hover {
+      color: #000;
+    }
+  }
+}

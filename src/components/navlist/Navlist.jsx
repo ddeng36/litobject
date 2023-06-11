@@ -17,9 +17,6 @@ const Navlist = () => {
         <li>
           <Link>News</Link>
         </li>
-        <li>
-          <Link to='/contact'>Contact</Link>
-        </li>
       </ul>
     </div>
   );
