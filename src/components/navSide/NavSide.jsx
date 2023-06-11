@@ -5,7 +5,6 @@ import Navbar from "../../components/navbar/Navbar";
 import NavButton from "../../components/navButton/NavButton";
 import Footer from "../footer/Footer";
 const NavSide = ({ chirldren }) => {
-  console.log(chirldren);
   return (
     <div className="navSide">
       <div className="navSide-sidebar">
