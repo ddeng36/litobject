@@ -7,13 +7,14 @@ import data from "../../constants/data";
 import Card from "../../components/card/Card";
 const Projects = () => {
   const [categoty, setCategory] = useState(data.filterData[0].name);
+
   return (
     <div className="projects">
+      <div className="nabButton">
+        <NavButton />
+      </div>
       <div className="top">
         <Navbar />
-        <div className="button">
-          <NavButton />
-        </div>
       </div>
       <div className="center">
         <div className="left">

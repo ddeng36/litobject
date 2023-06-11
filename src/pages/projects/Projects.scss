@@ -1,21 +1,20 @@
+.navButton {
+  z-index: 99;
+  display: none;
+  position: fixed;
+  top: 71px;
+  right: 15px;
+  @media screen and (max-width: 768px) {
+    display: block;
+  }
+}
 .projects {
   min-height: 100vh;
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  .top {
-    .button {
-      z-index: 99;
-      display: none;
-      position: fixed;
-      top: 71px;
-      right: 15px;
-      @media screen and (max-width: 768px) {
-        display: block;
-      }
-    }
-  }
+
   .center {
     display: flex;
     flex-direction: row;

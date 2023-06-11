@@ -14,7 +14,7 @@ const Sidebar = () => {
           <Navlist />
         </div>
         <div className="bottom">
-          <News />
+          {/* <News /> */}
         </div>
       </div>
     </div>

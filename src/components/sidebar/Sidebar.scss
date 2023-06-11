@@ -1,4 +1,5 @@
 .sidebar {
+  height: 100vh;
   display: flex;
   width: 365px;
   @media screen and (max-width: 768px) {
@@ -19,6 +20,9 @@
       @media screen and (max-width: 768px) {
         display: none;
       }
+    }
+    .bottom{
+      height: 10%;
     }
   }
 }

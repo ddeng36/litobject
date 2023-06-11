@@ -6,7 +6,7 @@ const Navlist = () => {
     <div className="navlist">
       <ul>
         <li>
-          <Link>About</Link>
+          <Link to="/about">About</Link>
         </li>
         <li>
           <Link to="/projects">Projects</Link>
@@ -18,7 +18,7 @@ const Navlist = () => {
           <Link>News</Link>
         </li>
         <li>
-          <Link>Contacts</Link>
+          <Link to='/contact'>Contact</Link>
         </li>
       </ul>
     </div>

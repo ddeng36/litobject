@@ -1,16 +1,17 @@
-.navbar{
-    width: 100%;
-    .content{
-        display: flex;
-        justify-content: space-between;
-        padding: 79px 79px 40px 79px;
-        @media screen and (max-width: 768px) {
-            padding: 79px 19px;
-            justify-content: flex-start;
-        }
-        .nav-language{
-            @media screen and (max-width: 768px) {
-            }
-        }
+.navbar {
+  width: 100vw;
+  .content {
+    display: flex;
+    justify-content: space-between;
+    padding: 79px 79px 40px 79px;
+    @media screen and (max-width: 768px) {
+      padding: 79px 19px;
+      justify-content: flex-start;
     }
+    .nav-language {
+      @media screen and (max-width: 768px) {
+        display: none;
+      }
+    }
+  }
 }
