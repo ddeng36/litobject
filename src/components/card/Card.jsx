@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Card = ({ item }) => {
     const [hover,setHover]=useState(false)
   return (
-    <Link to={`/product/${item.id}`} className="link"
+    <Link to={`/projects/${item.id}`} className="link"
         onMouseEnter={()=>setHover(true)}
         onMouseLeave={()=>setHover(false)}
     >
