@@ -19,6 +19,29 @@ const About = () => {
           voluptas tempora libero impedit voluptatibus!lorem
         </p>
       </div>
+      <div className="wrapper">
+        <div className="title">TimeLine</div>
+        <div className="contents">
+          <div className="content">
+            <div className="left">May 06 2023</div>
+            <div className="right para">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere
+              corporis error ex excepturi accusantium ducimus expedita
+              laudantium voluptates? Esse totam ipsa nisi iste ab quis, sapiente
+              asperiores aut. Beatae, aspernatur!
+            </div>
+          </div>
+          <div className="content">
+            <div className="left">May 06 2023</div>
+            <div className="right para">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere
+              corporis error ex excepturi accusantium ducimus expedita
+              laudantium voluptates? Esse totam ipsa nisi iste ab quis, sapiente
+              asperiores aut. Beatae, aspernatur!
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="contact">
         <div className="title">Contact</div>
         <div className="list">
