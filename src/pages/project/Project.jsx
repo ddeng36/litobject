@@ -1,9 +1,15 @@
-import React from 'react'
-import "./Project.scss"
+import React, { useRef, useEffect } from 'react';
+import * as THREE from 'three';
+
 const Project = () => {
-  return (
-    <div>Project</div>
-  )
-}
- 
-export default Project
+  const mount = useRef(null);
+  useEffect(() => {
+    const renderer = new THREE.WebGLRenderer();
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    mount.current.appendChild(renderer.domElement);
+  }, []);
+
+  return <div ref={mount} />;
+};
+
+export default Project;
