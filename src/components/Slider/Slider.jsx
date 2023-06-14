@@ -6,6 +6,7 @@ const Slider = () => {
   const length = slidersImg.length;
   const [currentSlide, setCurrentSlide] = useState(0);
 
+
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentSlide((prev) => (prev === length - 1 ? 0 : prev + 1));
