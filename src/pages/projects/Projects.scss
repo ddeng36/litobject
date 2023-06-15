@@ -1,13 +1,4 @@
-.navButton {
-  z-index: 99;
-  display: none;
-  position: fixed;
-  top: 71px;
-  right: 15px;
-  @media screen and (max-width: 768px) {
-    display: block;
-  }
-}
+
 .projects {
   max-width: 100vw;
   min-height: 100vh;

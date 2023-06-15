@@ -1,4 +1,12 @@
 .navButton {
+  z-index: 99;
+  display: none;
+  position: fixed;
+  top: 75px;
+  right: 15px;
+  @media screen and (max-width: 768px) {
+    display: block;
+  }
   .icon {
     cursor: pointer;
   }

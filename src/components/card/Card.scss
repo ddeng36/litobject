@@ -12,12 +12,13 @@
       width: 100%;
     }
     .image {
-      height: 400px;
-      width: 300px;
+      height: 440px;
+      width: 330px;
       position: relative;
-      @media screen and (max-width: 1050px) {
-        height: 440px;
-        width: 330px;
+      @media screen and (max-width: 1500px) {
+
+        height: 380px;
+        width: 270px;
       }
       @media screen and (max-width: 438px) {
         width: 100%;
