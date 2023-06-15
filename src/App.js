@@ -16,7 +16,7 @@ const App = () => {
             element={<NavSide chirldren={<About />}></NavSide>}
           />
           <Route path="/projects">
-            <Route index element={<Projects />} />
+            <Route index element={<NavSide chirldren={<Projects />}></NavSide>} />
             <Route path=":id" element={<Project/>}/>
           </Route>
         </Routes>
