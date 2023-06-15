@@ -6,7 +6,7 @@ const Slider = () => {
   const length = slidersImg.length;
   const [currentSlide, setCurrentSlide] = useState(0);
 
-
+  
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentSlide((prev) => (prev === length - 1 ? 0 : prev + 1));
@@ -17,7 +17,7 @@ const Slider = () => {
 
   return (
     <div className="slider">
-      <div className="content">
+      <div className="content" id = "2">
         {slidersImg.map((item, index) => (
           <div
             key={index}
