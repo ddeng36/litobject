@@ -6,9 +6,12 @@
     flex: 1;
     position: relative;
     .slide {
-      position: absolute;
+      position: fixed;
       top: 0;
-      left: 0;
+      left: 365px;
+      @media screen and (max-width: 768px) {
+        left: 0;
+      }
       right: 0;
       bottom: 0;
       width: 100%;

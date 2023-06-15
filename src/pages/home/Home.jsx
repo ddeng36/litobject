@@ -7,16 +7,7 @@ import NavButton from "../../components/navButton/NavButton";
 const Home = () => {
   return (
     <div className="home">
-      <Sidebar />
       <Slider />
-      <div className="topRight">
-        <div className="lng">
-          <Language />
-        </div>
-        <div className="btn">
-          <NavButton />
-        </div>
-      </div>
     </div>
   );
 };
