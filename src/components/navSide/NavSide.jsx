@@ -17,9 +17,9 @@ const NavSide = ({ chirldren }) => {
         <NavButton />
       </div>
       <div className="children">{chirldren}</div>
-      <div className="footer">
+      {/* <div className="footer">
         <Footer />
-      </div>
+      </div> */}
     </div>
   );
 };

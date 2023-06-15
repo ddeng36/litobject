@@ -1,55 +1,31 @@
 .about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  gap: 30px;
   color: var(--gray-color);
-  .bio {
-    margin-bottom: 25px;
-    .para {
-      line-height: 200%;
-      font-size: var(--font-size);
-    }
-  }
-  .title {
-    cursor: default;
-    font-size: 20px;
-    color: var(--gray-color);
-    margin-bottom: 10px;
-  }
-  .list {
-    font-size: var(--font-size);
-    margin-bottom: 5px;
-    margin-top: 5px;
+  line-height: 200%;
+  font-size: var(--font-size);
+  .wrapper{
     display: flex;
-    gap: 5px;
-    justify-content: start;
-    align-items: center;
-    cursor: default;
-    &:hover {
-      color: #000;
-    }
-  }
-  .wrapper {
-    .para {
-      line-height: 200%;
-      font-size: var(--font-size);
-    }
-    margin-top: 100px;
-    display: flex;
-    font-size: var(--font-size);
     flex-direction: column;
-    margin-bottom: 100px;
-    .contents {
+    .sub-title {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    .content {
       display: flex;
-      flex-direction: column;
-      gap: 10px;
-      .content {
-        display: flex;
+      .content-left{
+        width: 100px;
       }
-      .left {
-        line-height: 200%;
-        font-size: var(--font-size);
-        width: 200px;
+      .content-right{
+        flex: 1;
       }
-      .right {
-      }
+    }
+    .about-contact{
+      margin-bottom: 30px;
     }
   }
 }

@@ -11,13 +11,12 @@
         width: 100vw;
     }
     .children{
-        height: calc(100vh - 200px);
+        min-height: calc(100vh - 200px);
         width: calc(100vw - 380px);
         position: absolute;
         top:200px;
         left: 300px;
         right: 0;
-        bottom: 0;
         @media screen and (max-width: 768px){
             width: calc(100vw - 38px);
             bottom: 0;
