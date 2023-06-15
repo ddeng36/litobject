@@ -9,6 +9,7 @@
       justify-content: flex-start;
     }
     .nav-language {
+      z-index: 2;
       @media screen and (max-width: 768px) {
         display: none;
       }
