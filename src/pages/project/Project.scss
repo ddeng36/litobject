@@ -1,0 +1,26 @@
+.project {
+  display: flex;
+  flex-direction: column;
+  
+  .imgs {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    .project-img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 50px;
+    font-size: var(--font-size);
+    color: var(--gray-color);
+    line-height: 200%;
+    .info-title {
+      font-size: 20px;
+    }
+  }
+}

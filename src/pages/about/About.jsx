@@ -20,6 +20,7 @@ const About = () => {
               Obcaecati quo quasi, perspiciatis modi qui veritatis,
               exercitationem animi cum, expedita culpa doloribus voluptate eos
               quaerat officiis earum. Officia libero eum odio.
+
           </div>
         </div>
       </div>

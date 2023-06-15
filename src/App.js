@@ -5,7 +5,6 @@ import Projects from "./pages/projects/Projects";
 import NavSide from "./components/navSide/NavSide";
 import Project from "./pages/project/Project";
 import About from "./pages/about/About";
-import { NoAccounts } from "@mui/icons-material";
 const App = () => {
   return (
     <div className="app">
