@@ -12,6 +12,7 @@ const Language = () => {
     i18n.changeLanguage(lang); // Update the i18n language
   };
 
+  
   return (
     <div className="language">
       <div className="lng-btn" onClick={() => handleLanguageToggle("en")}>
