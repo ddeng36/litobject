@@ -1,8 +1,5 @@
 import React, { useState } from "react";
 import "./Projects.scss";
-import Navbar from "../../components/navbar/Navbar";
-import Footer from "../../components/footer/Footer";
-import NavButton from "../../components/navButton/NavButton";
 import data from "../../constants/data";
 import Card from "../../components/card/Card";
 const Projects = () => {

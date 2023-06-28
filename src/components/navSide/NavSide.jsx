@@ -3,7 +3,6 @@ import "./NavSide.scss";
 import Sidebar from "../../components/sidebar/Sidebar";
 import Navbar from "../../components/navbar/Navbar";
 import NavButton from "../../components/navButton/NavButton";
-import Footer from "../footer/Footer";
 const NavSide = ({ chirldren }) => {
   return (
     <div className="navSide">
@@ -17,9 +16,6 @@ const NavSide = ({ chirldren }) => {
         <NavButton />
       </div>
       <div className="children">{chirldren}</div>
-      {/* <div className="footer">
-        <Footer />
-      </div> */}
     </div>
   );
 };

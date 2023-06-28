@@ -10,8 +10,8 @@ const Card = ({ item }) => {
     >
       <div className="card">
         <div className="image">
-          <img src={item.img[0]} alt="" className={`mainImg ${hover ? "fade" : ""}`}  />
-          <img src={item.img[1]} alt="" className={`secondImg ${hover ? "active" : ""}`} />
+          <img src={item.preview[0]} alt="" className={`mainImg ${hover ? "fade" : ""}`}  />
+          <img src={item.preview[1]} alt="" className={`secondImg ${hover ? "active" : ""}`} />
         </div>
         <div className="title">{item.title}</div>
       </div>
